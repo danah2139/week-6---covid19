@@ -1,3 +1,6 @@
+:root {
+	--color-blue: #1d2d50;
+}
 .hidden {
 	opacity: 0;
 	transition: all 0.3s;
@@ -9,7 +12,7 @@ body {
 	text-align: center;
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	background-color: #1d2d50;
+	background-color: var(--color-blue);
 	color: #fbeee1;
 }
 #main-container {
@@ -92,7 +95,7 @@ body {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	transition: all 0.3s;
-	color: #1d2d50;
+	color: var(--color-blue);
 	background-color: white;
 }
 .countryData-content {
@@ -100,7 +103,7 @@ body {
 	max-width: 100%;
 	/* text-align: left; */
 	transition: all 0.3s;
-	color: #1d2d50;
+	color: var(--color-blue);
 }
 .countryData h5 {
 	padding: 1vh 1vw;
@@ -123,7 +126,7 @@ body {
 
 .buttons-main-container {
 	margin: auto;
-	background-color: #133b5c;
+	background-color: var(--color-blue);
 	max-width: 90vw;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -135,7 +138,7 @@ body {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 1vh 2vw;
-	background-color: #1e5f74;
+	background-color: var(--color-blue);
 }
 .buttons-container {
 	max-height: 100%;
@@ -158,8 +161,7 @@ select#countries {
 	max-width: 100%;
 }
 .btn {
-	/* width: 130px; */
-	padding: 1vh 2vw;
+	padding: 4vh 5vw;
 	border-radius: 10px;
 	background-color: #fbeee1;
 	border: none;
