@@ -13,7 +13,7 @@ body {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	background-color: var(--color-blue);
-	color: #fbeee1;
+	color: white;
 }
 #main-container {
 	position: relative;
@@ -163,7 +163,7 @@ select#countries {
 .btn {
 	padding: 4vh 5vw;
 	border-radius: 10px;
-	background-color: #fbeee1;
+	background-color: white;
 	border: none;
 	font-weight: 700;
 	box-shadow: 5px 3px 5px #071724;
